@@ -6,6 +6,14 @@
         "start" : "node app.js"
     },
     "subdomain" : "redirects",
+    "domains" : [
+        "www.chilts.org",
+        "www.chilts.com", "chilts.com",
+        "www.chilts.me", "chilts.me",
+        "www.appsattic.com",
+        "envelopes.io",
+        "www.awssum.io"
+    ],
     "engines" : {
       "node" : "0.8.x"
     },
