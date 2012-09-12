@@ -1,6 +1,6 @@
 {
     "name"    : "redirects",
-    "version" : "0.1.0-0",
+    "version" : "0.1.1-0",
     "private" : true,
     "scripts" : {
         "start" : "node app.js"
@@ -12,7 +12,8 @@
         "www.chilts.me", "chilts.me",
         "www.appsattic.com",
         "envelopes.io",
-        "www.awssum.io"
+        "appsatticdemo.com", "www.appsatticdemo.com",
+        "cssminifier.com"
     ],
     "engines" : {
       "node" : "0.8.x"

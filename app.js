@@ -13,19 +13,21 @@ var http    = require('http');
 var map = {
     // chilts
     'www.chilts.org' : 'chilts.org',
-    'chilts.com'     : 'chilts.org',
+        'chilts.com' : 'chilts.org',
     'www.chilts.com' : 'chilts.org',
-    'chilts.me'      : 'chilts.org',
-    'www.chilts.me'  : 'chilts.org',
+         'chilts.me' : 'chilts.org',
+     'www.chilts.me' : 'chilts.org',
 
     // appsattic (on GitHub pages, so can be a naked domain)
-    'www.appsattic.com' : 'appsattic.com',
+        'www.appsattic.com' : 'appsattic.com',
+        'appsatticdemo.com' : 'appsattic.com',
+    'www.appsatticdemo.com' : 'appsattic.com',
 
     // envelopes.io (on Heroku, so needs a subdomain)
     'envelopes.io' : 'www.envelopes.io',
 
-    // awssum.io (on GitHub pages, so can be a naked domain)
-    'www.awssum.io' : 'awssum.io',
+    // cssminifier.com (on Heroku, so needs a subdomain)
+    'cssminifier.com' : 'www.cssminifier.com',
 
     // some test domains
     'local.host' : 'example.com'
