@@ -7,10 +7,31 @@
     <meta name="description" content="Free domain redirection service">
     <meta name="author" content="AndrewChilton for AppsAttic Ltd">
     <link href="/s/bootstrap-2.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .navbar-inverse .nav > li > span {
+        background-color: transparent;
+        padding: 10px 15px 10px;
+        display: block;
+      }
+    </style>
   </head>
   <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">redirects.jit.su</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><span>Your home away from home</span></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
     </div>
 
     <div class="container">
@@ -33,12 +54,18 @@
             </li>
             </li>
             <li>Commit and send a pull request</li>
-            <li>(Wait a day or so for me to re-release.)</li>
+            <li>Wait a day or so for me to re-release</li>
             <li>
               Set your DNS records on the domain you're redirecting from
               <ul>
-                <li>For naked domains, read this to <a href="http://dns.jit.su/">set your A records</a></li>
-                <li>For subdomains, CNAME it to <code>redirects.jit.su</code></li>
+                <li>
+                  <strong>naked domains</strong>:
+                  set the A records using <a href="http://dns.jit.su/">dns.jit.su</a>
+                </li>
+                <li>
+                  <strong>subdomains</strong>:
+                  set the CNAME to <code>redirects.jit.su</code>
+                </li>
               </ul>
             </li>
             <li>Done</li>
@@ -46,7 +73,7 @@
         </div><!-- /.span8 -->
 
         <div class="span4">
-          <h2>Brought to you by:</h2>
+          <h2>Credits</h2>
           <p>
             <strong>Made by</strong>:
             <a href="http://appsattic.com/">AppsAttic</a>
@@ -54,7 +81,7 @@
             <br>
             <strong>Hosting by</strong>: <a href="http://nodejitsu.com/">Nodejitsu</a>.
           </p>
-          <p><a class="btn" href="https://github.com/appsattic/redirects">View project &raquo;</a></p>
+          <p><a class="btn btn-primary" href="https://github.com/appsattic/redirects">View Project &raquo;</a></p>
         </div><!-- /.span4 -->
 
       </div><!-- /.row -->
