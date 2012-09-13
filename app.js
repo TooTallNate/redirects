@@ -10,7 +10,7 @@ var fs      = require('fs');
 var connect = require('connect');
 var uuid    = require('connect-uuid');
 
-var map     = require('./map.js');
+var redirects = require('./redirects.js');
 
 // ----------------------------------------------------------------------------
 
@@ -25,9 +25,9 @@ app.use(function(req, res, next) {
     var host = req.headers.host.split(':', 1)[0].toLowerCase();
 
     // see if we know about this host
-    if ( map[host] ) {
+    if ( redirects[host] ) {
         // 301 = Moved Permanently
-        res.writeHead( 301, { 'Location' : 'http://' + map[host] + req.url });
+        res.writeHead( 301, { 'Location' : 'http://' + redirects[host] + req.url });
         return res.end();
     }
 
