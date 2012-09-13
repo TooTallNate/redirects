@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirect Service - from AppsAttic.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free domain redirection service">
+    <meta name="author" content="AndrewChilton for AppsAttic Ltd">
+    <link href="/s/bootstrap-2.1.1/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+    </div>
+
+    <div class="container">
+      <div class="hero-unit">
+
+        <h1>redirects.jit.su</h1>
+        <p>Small, simple and free redirection service for the Node.js community.</p>
+        <p><a class="btn btn-primary btn-large" href="https://github.com/appsattic/redirects">Learn more &raquo;</a></p>
+
+      </div><!-- /.hero-unit -->
+
+      <div class="row">
+
+        <div class="span8">
+          <h2>Instructions</h2>
+          <ol>
+            <li>Fork this repo: <a href="https://github.com/appsattic/redirects">appsattic/redirects</a></li>
+            <li>Edit <code>package.json</code> and <code>redirects.js</code>
+              <ul>
+                <li>add the domain you're redirecting <em>from</em> to package.json</li>
+                <li>add a key/value pair (the <em>from</em> domain/the <em>to</em> domain) to redirects.js</li>
+              </ul>
+            </li>
+            <li>Commit and send a pull request</li>
+            <li>(Wait a day or so for me to re-release.)</li>
+            <li>
+              Set your DNS records on the domain you're redirecting from
+              <ul>
+                <li>For naked domains, read this to <a href="http://dns.jit.su/">set your A records</a></li>
+                <li>For subdomains, CNAME it to <code>redirects.jit.su</code></li>
+              </ul>
+            </li>
+            <li>Done</li>
+          </ol>
+        </div><!-- /.span8 -->
+
+        <div class="span4">
+          <h2>Brought to you by:</h2>
+          <p>
+            <strong>Made by</strong>:
+            <a href="http://appsattic.com/">AppsAttic</a>
+            (makers of <a href="https://github.com/appsattic/node-awssum">node-awssum</a>).
+            <br>
+            <strong>Hosting by</strong>: <a href="http://nodejitsu.com/">Nodejitsu</a>
+          </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+
+      </div><!-- /.row -->
+
+      <hr>
+
+      <footer>
+        <p>&copy; AppsAttic Ltd 2012</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <script src="/s/js/jquery-1.8.1.min.js"></script>
+    <script src="/s/bootstrap-2.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
