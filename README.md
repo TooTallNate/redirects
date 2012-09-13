@@ -1,5 +1,7 @@
 # Redirects #
 
+Small, simple and free redirection service for the Node.js community.
+
 Please see [redirects.jit.su](http://redirects.jit.su/) for full details. :)
 
 # Author #
