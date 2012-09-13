@@ -8,7 +8,6 @@ var http    = require('http');
 var fs      = require('fs');
 
 var connect = require('connect');
-var uuid    = require('connect-uuid');
 
 var redirects = require('./redirects.js');
 

@@ -12,7 +12,6 @@
       "node" : "0.8.x"
     },
     "dependencies" : {
-        "connect"      : "*",
-        "connect-uuid" : "*"
+        "connect" : "*"
     }
 }
