@@ -1,6 +1,6 @@
 # Redirects #
 
-Please see (Redirect)[http://redirects.jit.su/] for full details. :)
+Please see [redirects.jit.su](http://redirects.jit.su/) for full details. :)
 
 # Author #
 
