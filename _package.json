@@ -1,0 +1,18 @@
+{
+    "name"    : "redirects",
+    "description" : "Small, simple and free redirection service for the Node.js community.",
+    "version" : "0.3.0-0",
+    "private" : true,
+    "scripts" : {
+        "start" : "node app.js"
+    },
+    "subdomain" : "redirects",
+    "domains" : [ "this.will.be.overwritten.example.com" ],
+    "engines" : {
+      "node" : "0.8.x"
+    },
+    "dependencies" : {
+        "connect"      : "*",
+        "connect-uuid" : "*"
+    }
+}
