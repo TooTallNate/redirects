@@ -26,6 +26,8 @@ module.exports = exports = {
     'www.appsatticdemo.com' : 'appsattic.com',
              'envelopes.io' : 'www.envelopes.io',    // Heroku
           'cssminifier.com' : 'www.cssminifier.com', // Heroku
+          'www.appsdns.net' : 'appsattic.com',
+              'appsdns.net' : 'appsattic.com',
 
     // chilts
     'www.chilts.org' : 'chilts.org',
