@@ -1,7 +1,7 @@
 {
     "name"    : "redirects",
     "description" : "Small, simple and free redirection service for the Node.js community.",
-    "version" : "0.3.8-0",
+    "version" : "0.3.8-1",
     "private" : true,
     "scripts" : {
         "start" : "node app.js"
