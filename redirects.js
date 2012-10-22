@@ -30,11 +30,12 @@ module.exports = exports = {
               'appsdns.net' : 'appsattic.com',
 
     // chilts
-    'www.chilts.org' : 'chilts.org',
-        'chilts.com' : 'chilts.org',
-    'www.chilts.com' : 'chilts.org',
-         'chilts.me' : 'chilts.org',
-     'www.chilts.me' : 'chilts.org',
+         'www.chilts.org' : 'chilts.org',
+             'chilts.com' : 'chilts.org',
+         'www.chilts.com' : 'chilts.org',
+              'chilts.me' : 'chilts.org',
+          'www.chilts.me' : 'chilts.org',
+     'www.nodejs.geek.nz' : 'nodejs.geek.nz',
 
     // DO NOT ADD YOUR USERNAME and DOMAINS BELOW THIS LINE.
 
