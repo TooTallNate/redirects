@@ -28,6 +28,7 @@ module.exports = exports = {
           'cssminifier.com' : 'www.cssminifier.com', // Heroku
           'www.appsdns.net' : 'appsattic.com',
               'appsdns.net' : 'appsattic.com',
+               'www.hex.gd' : 'hex.gd',
 
     // chilts
          'www.chilts.org' : 'chilts.org',
