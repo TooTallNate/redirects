@@ -38,6 +38,10 @@ module.exports = exports = {
           'www.chilts.me' : 'chilts.org',
      'www.nodejs.geek.nz' : 'nodejs.geek.nz',
 
+    // TooTallNate
+        'tootallnate.net' : 'n8.io',
+    'www.tootallnate.net' : 'n8.io',
+    
     // DO NOT ADD YOUR USERNAME and DOMAINS BELOW THIS LINE.
 
     // If you are adding your username last in this list, please _include_ the final
